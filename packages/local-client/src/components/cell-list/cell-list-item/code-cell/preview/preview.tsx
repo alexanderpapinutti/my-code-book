@@ -37,7 +37,7 @@ const html = `
     </html>
   `;
 
-const Preview: React.FC<PreviewProps> = ({ code, err }) => {
+export const Preview: React.FC<PreviewProps> = ({ code, err }) => {
   const iframe = useRef<any>();
 
   useEffect(() => {
@@ -48,16 +48,14 @@ const Preview: React.FC<PreviewProps> = ({ code, err }) => {
   }, [code]);
 
   return (
-    <div className="preview-wrapper">
+    <div className='preview-wrapper'>
       <iframe
-        title="preview"
+        title='preview'
         ref={iframe}
-        sandbox="allow-scripts"
+        sandbox='allow-scripts'
         srcDoc={html}
       />
-      {err && <div className="preview-error">{err}</div>}
+      {err && <div className='preview-error'>{err}</div>}
     </div>
   );
 };
-
-export default Preview;

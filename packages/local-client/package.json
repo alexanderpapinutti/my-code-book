@@ -2,7 +2,8 @@
   "name": "@my-code-book/local-client",
   "version": "1.0.2",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://github.com/alexanderpapinutti/my-code-book"
   },
   "files": [
     "build"

@@ -4,7 +4,8 @@
 	"description": "",
 	"bin": "dist/index.js",
 	"publishConfig": {
-		"access": "public"
+		"access": "public",
+    "registry": "https://github.com/alexanderpapinutti/my-code-book"
 	},
 	"files": [
 		"dist"

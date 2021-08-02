@@ -6,7 +6,8 @@
     "dist"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://github.com/alexanderpapinutti/my-code-book"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
