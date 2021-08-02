@@ -1,11 +1,11 @@
 {
 	"name": "my-code-book",
-	"version": "1.1.7",
+	"version": "1.1.8",
 	"description": "",
 	"bin": "dist/index.js",
 	"publishConfig": {
 		"access": "public",
-    "registry": "https://github.com/alexanderpapinutti/my-code-book"
+		"registry": "https://github.com/alexanderpapinutti/my-code-book"
 	},
 	"files": [
 		"dist"
@@ -22,7 +22,7 @@
 		"@my-code-book/local-client": "^1.1.7"
 	},
 	"devDependencies": {
-		"@my-code-book/local-api": "^1.1.7",
+		"@my-code-book/local-api": "^1.1.8",
 		"@types/node": "^14.14.22",
 		"commander": "^7.0.0",
 		"esbuild": "0.8.26",
