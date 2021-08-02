@@ -2,7 +2,8 @@
   "name": "@my-code-book/local-client",
   "version": "1.1.5",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://github.com/alexanderpapinutti/my-code-book/tree/main/packages/local-client"
   },
   "files": [
     "build"
@@ -67,5 +68,5 @@
       "last 1 safari version"
     ]
   },
-  "gitHead": "7488be7153a4757d930a65c34bf43b1b356ce8e4"
+  "gitHead": "4aa8f57f7907f3887bf5f37268ddada15ead3a06"
 }

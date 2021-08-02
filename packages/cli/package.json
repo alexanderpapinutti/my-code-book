@@ -4,7 +4,8 @@
 	"description": "",
 	"bin": "dist/index.js",
 	"publishConfig": {
-		"access": "public"
+		"access": "public",
+    "registry": "https://github.com/alexanderpapinutti/my-code-book/tree/main/packages/cli"
 	},
 	"files": [
 		"dist"
@@ -27,5 +28,5 @@
 		"esbuild": "0.8.26",
 		"typescript": "^4.1.3"
 	},
-	"gitHead": "7488be7153a4757d930a65c34bf43b1b356ce8e4"
+	"gitHead": "4aa8f57f7907f3887bf5f37268ddada15ead3a06"
 }
