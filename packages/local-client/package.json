@@ -1,6 +1,6 @@
 {
   "name": "@my-code-book/local-client",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "publishConfig": {
     "access": "public",
     "registry": "https://github.com/alexanderpapinutti/my-code-book/tree/main/packages/local-client"
