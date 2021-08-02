@@ -2,5 +2,8 @@
   "version": "1.1.6",
   "packages": [
     "packages/*"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://github.com/alexanderpapinutti/my-code-book"
+  }
 }
