@@ -4,8 +4,7 @@
 	"description": "",
 	"bin": "dist/index.js",
 	"publishConfig": {
-		"access": "public",
-		"registry": "https://github.com/alexanderpapinutti/my-code-book"
+		"access": "public"
 	},
 	"files": [
 		"dist"
@@ -28,5 +27,5 @@
 		"esbuild": "0.8.26",
 		"typescript": "^4.1.3"
 	},
-	"gitHead": "dfbd2f7a6c399157420dd635b0d046077351d393"
+	"gitHead": "40c38ae4edcef64501a5b0448bc9feda6936d0d1"
 }
