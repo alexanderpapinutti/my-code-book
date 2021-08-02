@@ -5,7 +5,7 @@
   ],
   "command": {
     "publish": {
-      "registry": "https://npm.pkg.github.com"
+      "registry": "https://github.com/alexanderpapinutti/my-code-book"
     }
   }
 }
