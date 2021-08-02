@@ -1,28 +1,28 @@
 {
 	"name": "my-code-book",
-	"version": "1.0.3",
+	"version": "1.1.0",
 	"description": "",
 	"bin": "dist/index.js",
 	"publishConfig": {
 		"access": "public",
-    "registry": "https://github.com/alexanderpapinutti/my-code-book"
+		"registry": "https://github.com/alexanderpapinutti/my-code-book"
 	},
 	"files": [
 		"dist"
 	],
 	"scripts": {
 		"start": "tsc --watch --preserveWatchOutput",
-    "start:dev": "tsc && node dist/index.js serve",
+		"start:dev": "tsc && node dist/index.js serve",
 		"prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@my-code-book/local-client": "^1.0.2"
+		"@my-code-book/local-client": "^1.1.0"
 	},
 	"devDependencies": {
-		"@my-code-book/local-api": "^1.0.2",
+		"@my-code-book/local-api": "^1.1.0",
 		"@types/node": "^14.14.22",
 		"commander": "^7.0.0",
 		"esbuild": "0.8.26",
