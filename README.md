@@ -1,6 +1,6 @@
 
 
-npm registry: https://www.npmjs.com/package/my-code-book
+npm package: https://www.npmjs.com/package/my-code-book
 
 # Description
 
