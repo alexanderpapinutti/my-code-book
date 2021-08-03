@@ -12,7 +12,7 @@ export const serve = (
   const app = express();
 
   app.use(createCellsRouter(filename, dir));
-  console.log('IS PRODUCTION?', isProduction);
+
   if (isProduction) {
     const packagePath = require.resolve(
       '@my-code-book/local-client/build/index.html'

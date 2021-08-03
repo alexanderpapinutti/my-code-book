@@ -3,4 +3,6 @@ dist
 node_modules
 notebook.js
 
+.npmrc
+
 lerna-debug.log

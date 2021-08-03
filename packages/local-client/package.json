@@ -4,6 +4,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alexanderpapinutti/my-code-book.git"
+  },
   "files": [
     "build"
   ],
@@ -67,5 +71,5 @@
       "last 1 safari version"
     ]
   },
-  "gitHead": "4aa8f57f7907f3887bf5f37268ddada15ead3a06"
+  "gitHead": "c6097e85f6f6181230997fbf22953f2a1afa5962"
 }
